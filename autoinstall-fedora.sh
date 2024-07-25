@@ -69,7 +69,7 @@ choose_bundle() {
 restore() {
     sudo dnf install -y btrfs-assistant
     sudo snapper -c default create-config /
-    snapper -c default create --description "Autoinstall recovery" || echo "$restorefail" && exit 3
+    sudo snapper -c default create --description "Autoinstall recovery" || echo "$restorefail" && exit 3
 }
 #nvidia gpu install
 nvcheck() {
