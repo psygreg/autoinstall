@@ -111,13 +111,13 @@ else
     echo "$bundleopt"
     choose_bundle
     if [ "$bundle" == "1" ]; then
-        restore
+        #restore
         nvcheck
         #radeon_vlk
         eval "$BASEDNF"
         eval "$BASEFLAT"
     elif [ "$bundle" == "2" ]; then
-        restore
+        #restore
         nvcheck
         #radeon_vlk
 	    eval "$GAMEDNF"
