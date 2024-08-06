@@ -12,7 +12,7 @@ trap cleanup EXIT
 BASEDNF="sudo dnf install -y chromium libreoffice-fresh pinta wine wine-gecko wine-mono freetype2"
 BASEFLAT="flatpak install -y --noninteractive --or-update com.github.IsmaelMartinez.teams_for_linux"
 GAMEDNF="sudo dnf install -y freetype2 steam lutris mangohud gamescope goverlay"
-GAMEFLAT="flatpak install -y --noninteractive --or-update org.prismlauncher.PrismLauncher com.heroicgameslauncher.hgl com.obsproject.Studio io.github.unknownskl.greenlight com.discordapp.Discord com.valvesoftware.Steam.Utility.MangoHud"
+GAMEFLAT="flatpak install -y --noninteractive --or-update org.prismlauncher.PrismLauncher com.heroicgameslauncher.hgl com.obsproject.Studio dev.vencord.Vesktop com.valvesoftware.Steam.Utility.MangoHud"
 ##FUNCTIONS
 #get language from OS
 get_lang() {
